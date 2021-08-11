@@ -21,7 +21,10 @@ py -3 -m venv venv
 2. Activate the virtual environment
 
 ```bash
+// Linux
 . venv/bin/activate
+
+// Windows
 venv\Scripts\activate
 ```
 
@@ -41,3 +44,7 @@ flask run
 The entrypoint for the server is the `app.py` file, so check that out if you have any concern on the start up of the server.
 
 Would say main dependency is [flask](https://flask.palletsprojects.com), so take a look as well at that if you have any question.
+
+## TODOs
+
+* Use environment variables, ideally start with the PORT setting or something
